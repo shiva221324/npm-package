@@ -1,0 +1,26 @@
+{
+  "name": "deployer",
+  "version": "1.0.0",
+  "description": "npm package",
+  "main": "index.js",
+  "scripts": {
+    "test": "npm run test"
+  },
+  "type": "module",
+  "author": "shiva",
+  "license": "Apache-2.0",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/shiva221324/npm-package.git"
+  },
+  "bugs": {
+    "url": "https://github.com/shiva221324/npm-package/issues"
+  },
+  "homepage": "https://github.com/shiva221324/npm-package#readme",
+  "dependencies": {
+    "@octokit/rest": "^20.1.1",
+    "inquirer": "^9.2.23",
+    "path": "^0.12.7",
+    "simple-git": "^3.24.0"
+  }
+}
