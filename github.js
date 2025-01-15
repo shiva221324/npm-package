@@ -15,7 +15,7 @@ async function deployToGitHub() {
         type: "input",
         name: "token",
         message: "Enter your GitHub token:",
-        default: "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",
+        default: process.env.GITHUB_TOJKEN, //github token
       },
       {
         type: "input",
