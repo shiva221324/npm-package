@@ -4,7 +4,9 @@
   "description": "npm package",
   "main": "index.js",
   "scripts": {
-    "test": "npm run test"
+    "test": "npm run test",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build"
   },
   "type": "module",
   "author": "shiva",
@@ -16,11 +18,17 @@
   "bugs": {
     "url": "https://github.com/shiva221324/npm-package/issues"
   },
-  "homepage": "https://github.com/shiva221324/npm-package#readme",
+  "homepage": "https://shiva221324.github.io/reactproject2",
   "dependencies": {
     "@octokit/rest": "^20.1.1",
+    "child_process": "^1.0.2",
+    "fs-extra": "^11.2.0",
     "inquirer": "^9.2.23",
     "path": "^0.12.7",
-    "simple-git": "^3.24.0"
+    "simple-git": "^3.24.0",
+    "util": "^0.12.5"
+  },
+  "devDependencies": {
+    "gh-pages": "^6.1.1"
   }
 }
